@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
-
 void ft_putchar(char c){
-  write(1, &c, 1);
-}
+  write(1, &c, 1);}
 void ft_print_comb(void){
 int first;
 int second;
@@ -18,14 +16,9 @@ while(first<='7'){
     ft_putchar(second);
     ft_putchar(last);
     ft_putchar(',');
-    last++;
-  }
-  second++;
-  }
-  first++;
-}
-}
+    last++;  }
+  second++;  }
+  first++;}}
 int main(){
 ft_print_comb();
-  return 0;
-}
+  return 0;}
